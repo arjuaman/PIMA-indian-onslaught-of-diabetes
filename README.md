@@ -1,3 +1,17 @@
+## Flask Implementation: 
+Install the requirements.txt file using : <br>
+<em> pip install -r requirements.txt --no-index --find-links file:///tmp/packages </em><br>
+
+Run the pred.py file using: <br>
+<em> python pred.py </em>
+
+Note: Remove the following part from pred.py if you don't want to run in <em>Debug Mode</em>:<br>
+<em> if __name__ == '__main__': </em> <br>
+<em>    app.run(debug=True) </em>
+
+<strong> If you want to train on any other ML Model, simply train on the dataset and use it's pickle file in <em>pred.py</em> file. </strong>
+
+## Description:
 Notebook2 contains the final project.
 
 I used the Pima Indians onset of diabetes dataset. 
