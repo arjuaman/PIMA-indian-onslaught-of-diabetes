@@ -11,6 +11,11 @@ Note: Remove the following part from pred.py if you don't want to run in <em>Deb
 
 <strong> If you want to train on any other ML Model, simply train on the dataset and use it's pickle file in <em>pred.py</em> file. </strong>
 
+<strong> Note: </strong>The requirements file is generated using: <br>
+<em>pip3 freeze > requirements.txt</em><br>
+
+So it's possible you might be seeing a lot of unnecessary modules for your work, feel free to edit as per your requirements! :) 
+
 ## Description:
 Notebook2 contains the final project.
 
