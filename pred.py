@@ -23,9 +23,9 @@ def predict():
     output='{0:.{1}f}'.format(prediction[0][1], 2)
 
     if output>str(0.5):
-        return render_template('home.html',pred='Danger.\nProbability of diabetes occuring is {}'.format(output),bhai="kuch karna hain iska ab?")
+        return render_template('home.html',pred='Danger.\nProbability of diabetes occuring is {}'.format(output),bhai="Consult doc")
     else:
-        return render_template('home.html',pred='Safe.\n Probability of diabetes occuring is {}'.format(output),bhai="Your Forest is Safe for now")
+        return render_template('home.html',pred='Safe.\n Probability of diabetes occuring is {}'.format(output),bhai="Safe for now")
 
 
     #return render_template('home.html', title='Predict', form=form)
